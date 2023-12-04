@@ -18,11 +18,4 @@ array([[18663,   102],
 
 # Classification Report
 
- precision    recall  f1-score   support
-
-  Healthy Loan       1.00      0.99      1.00     18765
-High-Risk Loan       0.85      0.91      0.88       619
-
-      accuracy                           0.99     19384
-     macro avg       0.92      0.95      0.94     19384
-  weighted avg       0.99      0.99      0.99     19384
+![image](https://github.com/lakigit/credit-risk-classification/assets/138610916/5cfc167b-b1d7-438d-b30a-c4c0673112fe)
