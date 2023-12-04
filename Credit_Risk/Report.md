@@ -11,11 +11,11 @@ In order to create a regression model, it is recommended to employ the logistic 
 
 # Results
 
-# Confusion matrix
+* **Confusion matrix**
 
-array([[18663,   102],
-       [   56,   563]], dtype=int64)
+![image](https://github.com/lakigit/credit-risk-classification/assets/138610916/1babec63-7f6b-4c9b-883f-24c6e2bedba4)
 
-# Classification Report
+
+* **Classification Report**
 
 ![image](https://github.com/lakigit/credit-risk-classification/assets/138610916/5cfc167b-b1d7-438d-b30a-c4c0673112fe)
