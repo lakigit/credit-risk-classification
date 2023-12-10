@@ -20,5 +20,3 @@ In order to create a regression model, it is recommended to employ the logistic 
 
 ![image](https://github.com/lakigit/credit-risk-classification/assets/138610916/5cfc167b-b1d7-438d-b30a-c4c0673112fe)
 
-Model 01 (Healthy Loan): \
-          f1-score: Since this value is 1, it tells us that the model does a very good job
