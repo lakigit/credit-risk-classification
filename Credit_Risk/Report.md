@@ -27,6 +27,7 @@ According to this confusion matrix,
 
 ![image](https://github.com/lakigit/credit-risk-classification/assets/138610916/5cfc167b-b1d7-438d-b30a-c4c0673112fe)
 
+<<<<<<< HEAD
 1. Precision:
 For "Healthy Loan": 100% (or 1.00)
 For "High-Risk Loan": 85% (or 0.85)
@@ -56,3 +57,7 @@ The weighted average of precision, recall, and F1-score, considering the number 
 * The model seems to perform exceptionally well, especially for the "Healthy Loan" class, with high precision, recall, and F1-score.
 * For the "High-Risk Loan" class, the model is slightly less accurate, with lower precision, recall, and F1-score compared to the "Healthy Loan" class.
 * The overall accuracy of 99% suggests that the model is effective in predicting both classes.
+=======
+Model 01 (Healthy Loan): \
+          f1-score: Since this value is 1, it tells us that the model does a very good job
+>>>>>>> 99b395ebebd6005e3eaea2178976f812da3efb5d
