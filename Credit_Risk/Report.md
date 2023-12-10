@@ -2,11 +2,11 @@
 
 # Background
 
-The objective of this project is to train and evaluate a model that can accurately assess loan risk using various techniques. The dataset used for analysis comprises of previous lending activities from a peer-to-peer lending services company. The goal is to create a model that can determine the creditworthiness of borrowers with precision. 
+The objective of this project is to train and evaluate a model that can accurately assess loan risk using various techniques. The dataset used for analysis comprises previous lending activities from a peer-to-peer lending services company. The goal is to create a model that can determine the creditworthiness of borrowers with precision. 
 
 Upon importing a CSV file, the data should be separated into labels and features. The `loan_status` column should be used as the label (y), while the remaining columns should be used as features (X). A value of 0 in the `loan_status` column indicates that the loan is healthy, while a value of 1 indicates that the loan has a high risk of defaulting. The next step is to split the data into training and testing using the `train_test_split` function.
 
-In order to create a regression model, it is recommended to employ the logistic regression model when dealing with binary data. The process of fitting the regression model involves assigning the model and subsequently utilizing the training data. Once the model has been trained, predictions can be made using the testing data. Finally, it is necessary to create a confusion matrix and classification report. To accomplish this, it is essential to import the relevant dependencies, namely `confusion_matrix` and `classification_report` respectively. 
+To create a regression model, it is recommended to employ the logistic regression model when dealing with binary data. The process of fitting the regression model involves assigning the model and subsequently utilizing the training data. Once the model has been trained, predictions can be made using the testing data. Finally, it is necessary to create a confusion matrix and classification report. It is essential to import the relevant dependencies, namely `confusion_matrix` and `classification_report` respectively. 
 
 
 # Results
@@ -27,8 +27,6 @@ According to this confusion matrix,
 
 ![image](https://github.com/lakigit/credit-risk-classification/assets/138610916/5cfc167b-b1d7-438d-b30a-c4c0673112fe)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 1. Precision:
 For "Healthy Loan": 100% (or 1.00)
 For "High-Risk Loan": 85% (or 0.85)
@@ -58,9 +56,3 @@ The weighted average of precision, recall, and F1-score, considering the number 
 * The model seems to perform exceptionally well, especially for the "Healthy Loan" class, with high precision, recall, and F1-score.
 * For the "High-Risk Loan" class, the model is slightly less accurate, with lower precision, recall, and F1-score compared to the "Healthy Loan" class.
 * The overall accuracy of 99% suggests that the model is effective in predicting both classes.
-=======
-Model 01 (Healthy Loan): \
-          f1-score: Since this value is 1, it tells us that the model does a very good job
->>>>>>> 99b395ebebd6005e3eaea2178976f812da3efb5d
-=======
->>>>>>> 8352aa7755f37a3d05acf045d503f9dddc2d7d5f
